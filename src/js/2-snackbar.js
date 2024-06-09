@@ -46,18 +46,18 @@ function promiseFoo(e) {
     })
     .catch(delay => {
       iziToast.error({
-  message: `Rejected promise in ${delay}ms`,
-  messageSize: '16',
-  messageColor: '#fff',
-  backgroundColor: '#ef4040',
-  position: 'topRight',
-  close: true,
-  closeOnEscape: true,
-  closeOnClick: true,
-  progressBar: true,
-  progressBarColor: '#ffbebe',
-  iconUrl: imageUrl,
-  iconColor: '#fff',
+        message: `Rejected promise in ${delay}ms`,
+        messageSize: '16',
+        messageColor: '#fff',
+        backgroundColor: '#ef4040',
+        position: 'topRight',
+        close: true,
+        closeOnEscape: true,
+        closeOnClick: true,
+        progressBar: true,
+        progressBarColor: '#ffbebe',
+        iconUrl: imageUrl,
+        iconColor: '#fff',
 });
     });
   
